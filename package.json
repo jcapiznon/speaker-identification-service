@@ -1,0 +1,29 @@
+{
+  "name": "oxford-speakeridentification-service-plugin",
+  "description": "Project Oxford Speaker Identification Service Plugin seed project for the Reekoh IoT Platform.",
+  "author": "Reekoh, Inc.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "dependencies": {
+    "reekoh": "^1.0.2",
+    "lodash.isempty": "^4.1.1",
+    "lodash.isplainobject": "^4.0.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-json-lint": "^0.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-standard": "^8.0.4",
+    "jshint": "^2.9.4",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "apiKey": {
+	"label": "API Key",
+	"type": "Password",
+	"required": true,
+	"help": "Microsoft Project Oxford Speaker Recognition API key."
+  },
+  "profileIds": {
+	"label": "Default Profile IDs",
+	"type": "String",
+	"help": "(Optional) Identify who is speaking given a group of voice or identification profile ids. Pass a profileIds or profile_ids comma-delimited string or array field in the data to override."
+  }
+}
